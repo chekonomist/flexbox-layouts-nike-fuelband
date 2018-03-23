@@ -8,12 +8,10 @@ body{
 }
 
 .top-container{
-  display: flex;
-  flex-flow: row wrap;
 }
 
   .big-image-block{
-    width: 40%;
+    display: flex;
   }
 
     .top-text{
@@ -36,11 +34,10 @@ body{
       font-weight: 700;
     }
 
-  .block-big-image{
-    width: 60%;
-  }
+    .image-nike-band{
+      padding: 15px;
+    }
 
-}
   .bottom-container{
 
   }
