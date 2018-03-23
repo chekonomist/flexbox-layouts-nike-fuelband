@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.top-container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+  .big-image-block{
+    width: 40%;
+  }
+
+    .top-text{
+      display: block;
+    }
+
+    .client{
+      margin-bottom: 0;
+    }
+
+    .project{
+      margin-top: 0;
+    }
+
+    .site-link{
+      color: #e74c3c;
+    }
+
+    .slogan{
+      font-weight: 700;
+    }
+
+  .block-big-image{
+    width: 60%;
+  }
+
+}
+  .bottom-container{
+
+  }
+    .detail-images-block{
+      display: flex;
+    }
+      .image-bands{
+        width: 33%;
+        padding: 5px;
+      }
+      .image-computer{
+        width: 33%;
+        padding: 5px;
+      }
+      .image-score{
+        width: 33%;
+        padding: 5px;
+      }
